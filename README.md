@@ -8,4 +8,4 @@
 Одностраничный сайт адаптирован под устройства с различными разрешениями экранов. 
 
 ### Ссылка на Гитхаб
- [  GitHub Pages ()]
+ [GitHub Pages](https://github.com/AnnaNachkepiia/Russian-Travel-Nachkepiia)
