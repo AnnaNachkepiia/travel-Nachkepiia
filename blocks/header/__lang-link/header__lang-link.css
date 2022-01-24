@@ -2,14 +2,18 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 1.17;
-    text-decoration: none;
     color: #FFFFFF;
-    list-style-type: none;
     margin-right: 18px;
 }
 .header__lang-link:last-of-type{
     margin: 0;
 }
-.header__lang-link:focus{
-    text-decoration: underline;
+.header__lang-link:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width: 767px){
+    .header__lang-link{
+        font-size: 18px;
+        line-height: 1.11;
+    }
 }

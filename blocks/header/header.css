@@ -2,7 +2,21 @@
     max-width: 1184px;
     display: flex;
     flex-direction: row;
-    margin: 28px auto 0;
+    margin: 0 auto;
     justify-content: space-between;
-    align-items: flex-end;
+}
+@media screen and (max-width: 1279px){
+    .header{
+        max-width: calc(100% - 48px * 2);
+    }
+}
+@media screen and (max-width: 1023px){
+    .header{
+        max-width: calc(100% - 24px * 2);
+    }
+}
+@media screen and (max-width: 767px){
+    .header{
+        max-width: calc(100% - 16px * 2);
+    }
 }
