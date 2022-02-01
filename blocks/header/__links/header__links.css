@@ -1,8 +1,14 @@
-.header__links{
-    margin-top: 46px;
+.header__links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 46px 0 0;
+    padding: 0;
+
 }
-@media screen and (max-width: 767px){
-    .header__links{
+
+@media screen and (max-width: 767px) {
+    .header__links {
         margin-top: 30px;
     }
 }

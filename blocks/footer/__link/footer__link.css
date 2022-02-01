@@ -1,4 +1,4 @@
-.footer__link{
+.footer__link {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.12;
@@ -6,13 +6,18 @@
     color: #FFFFFF;
     margin-right: 18px;
 }
-.footer__link:last-of-type{
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+.footer__link:last-of-type {
     margin-right: 0;
 }
-@media screen and (max-width: 767px){
-    .footer__link{
+
+@media screen and (max-width: 767px) {
+    .footer__link {
         font-size: 24px;
         line-height: 24px;
     }
 }
-/* необходимо вренуться и исправить расстояния между строчками футера */
